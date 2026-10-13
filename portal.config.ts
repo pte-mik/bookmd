@@ -1,5 +1,5 @@
 export default {
-  title: 'My books',
+  title: 'PTE MIK books',
   contentRoot: './content',
   entrypoint: 'books.md'
 };

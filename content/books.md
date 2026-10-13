@@ -1,7 +1,9 @@
 ---
-courses:
-  - "[[my-first-book/book.md]]"
+branding: PTE MIK
+books:
+  - "main@github.com/laborci/books/_course_book_authoring/book.md"
+  - "main@github.com/atom-forge/bookmd/docs/book.md"
 ---
-# My books
+# PTE MIK könyvek
 
-Welcome! This is the front page of your collection. Add more books by listing them above.
+Tananyagok és útmutatók gyűjteménye.
