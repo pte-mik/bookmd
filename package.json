@@ -1,0 +1,12 @@
+{
+  "name": "my-books",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "bookmd check",
+    "build": "bookmd build"
+  },
+  "dependencies": {
+    "@atom-forge/bookmd": "^0.1.3"
+  }
+}
