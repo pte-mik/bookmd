@@ -27,9 +27,14 @@ jobs:
           bun-version: '1.4.0'
       - run: bun install
       - run: bun run check
+        env:
+          BOOKMD_APP_ID: ${{ secrets.BOOKMD_APP_ID }}
+          BOOKMD_APP_PRIVATE_KEY: ${{ secrets.BOOKMD_APP_PRIVATE_KEY }}
       - run: bun run build
         env:
           BASE_PATH: /${{ github.event.repository.name }}
+          BOOKMD_APP_ID: ${{ secrets.BOOKMD_APP_ID }}
+          BOOKMD_APP_PRIVATE_KEY: ${{ secrets.BOOKMD_APP_PRIVATE_KEY }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: build
