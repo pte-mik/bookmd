@@ -7,6 +7,6 @@
     "build": "bookmd build"
   },
   "dependencies": {
-    "@atom-forge/bookmd": "^0.1.14"
+    "@atom-forge/bookmd": "^0.1.15"
   }
 }
